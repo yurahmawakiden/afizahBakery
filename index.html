@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afizah Bakery</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="brand">
+            <img src="asset/img/logo-afizah.png" alt="Logo Afizah Bakery">
+                <div>
+                    <h1 class="site-title">Afizah Bakery</h1>
+                    <p class="tagline">Fresh Made Everyday</p>
+                </div>
+        </div>
+        <nav class="main-menu" aria-label="Menu utama">
+            <ul id="menu"></ul>
+        </nav>
+    </header>
+    <main class="site-content">
+        <section id="beranda">
+            <h2>Selamat Datang</h2>
+            <p>Kami menjual aneka kue premium setiap hari</p>
+        </section>
+        <section id="produk">
+            <h2>Produk Kami</h2>
+            <div class="filters" id="filter-produk"></div>
+            <p class="meta" id="jumlah-produk"></p>
+            <div class="grid" id="daftar-produk"></div>
+        </section>
+        <section id="kontak">
+            <div class="hubungi">
+                <h2>Hubungi Kami</h2>
+                <p>Email: halo@afizah-bakery.test</p>
+            </div>
+            <form id="form-kontak" novalidate >
+                <label>Nama <input type="text" name="nama"></label>
+                <label>Pesan <textarea name="pesan" rows="4"></textarea></label>
+                <button type="submit" class="btn">Kirim</button>
+                <p id="form-status" role="status"></p>
+            </form>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p>&copy; <span id="tahun"></span>Afizah Bakery. Hak Cipta Dilindungi</p>
+        <p class="medsos"><a href="#"><i class="bi bi-instagram"></i>Instagram</a> | <a href="#"><i class="bi bi-tiktok"></i>TikTok</a> | <a href="#"><i class="bi bi-facebook"></i>Facebook</a> </p>
+    </footer>
+    <script src="asset/js/app.js"></script>
+</body>
+</html>

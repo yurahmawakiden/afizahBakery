@@ -27,5 +27,31 @@ c. img
 - Prototype
 - Mockup
 
+3. Implementation/Coding
+- Algoritma (Pseudocode)
+- Flowchart
+- Project language 
+Untuk Public : Vanilla Code
+(FE : HTML, CSS, JS)
+(BE : PHP - PURE NATIVE)
+
+Untuk Admin
+(FE & BE : Hybrid PHP dan HTML)
+
+- GITHUB/SEMVER
+- Vassioning - Control
+
+4. Testing/Pengujian (Debugging)
+- Dev Tools
+- In-host, Local-Online, Local-Internet
+- Validation & Sanitasi => Input
+- Data Protection (.htaccess) & Directory List Pro (DLP) => Simply MDX fILE
+- Penerapan SSL 
+
+5. Deployment
+- DSV 
+- Production
+
+6. Maintenance
 
 

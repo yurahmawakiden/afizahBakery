@@ -1,0 +1,70 @@
+{
+  "site": {
+    "nama": "Afizah Bakery",
+    "email": "halo@afizahbakery.test"
+  },
+  "menu": [
+    {
+      "id": "beranda",
+      "label": "Beranda"
+    },
+    {
+      "id": "tentang-kami",
+      "label": "Tentang Kami"
+    },
+    {
+      "id": "produk",
+      "label": "Produk"
+    },
+    {
+      "id": "kontak",
+      "label": "Kontak"
+    }
+  ],
+  "produk": [
+    {
+      "id": 1,
+      "slug": "nastar",
+      "nama": "Nastar Premium",
+      "kategori": "kue kering",
+      "harga": 85000,
+      "deskripsi": "Kue kering lembut dengan isian nanas",
+      "img": "asset/img/nastar.jpeg",
+      "alt": "foto kue nanas",
+      "stok": 20
+    },
+    {
+      "id": 2,
+      "slug": "kastengel",
+      "nama": "Kastengel Premium",
+      "kategori": "kue kering",
+      "harga": 80000,
+      "deskripsi": "Kue kering yang terbalut dengan keju yang renyah.",
+      "img": "asset/img/kastengel.jpeg",
+      "alt": "foto produk",
+      "stok": 20
+    },
+    {
+      "id": 3,
+      "slug": "putri salju",
+      "nama": "Puti Salju",
+      "kategori": "kue kering",
+      "harga": 90000,
+      "deskripsi": "Kue kering dengan khas rasa gurih dan taburan gula manis.",
+      "img": "asset/img/putri-salju.jpeg",
+      "alt": "foto produk",
+      "stok": 20
+    },
+    {
+      "id": 4,
+      "slug": "thumb print",
+      "nama": "Thumb Print",
+      "kategori": "kue kering",
+      "harga": 88000,
+      "deskripsi": "Kue kering dengan taburan kacang almond dan coklat leleh di tengahnya.",
+      "img": "asset/img/thumb-print.jpeg",
+      "alt": "foto produk",
+      "stok": 20
+    }
+  ]
+}
